@@ -28,7 +28,7 @@ export default function ChatSection() {
         handleSubmit={handleSubmit}
         handleInputChange={handleInputChange}
         isLoading={isLoading}
-        multiModal={MODEL === "gpt-4-vision-preview"}
+        multiModal={MODEL === "gpt-3.5-turbo"}
       />
     </div>
   );
